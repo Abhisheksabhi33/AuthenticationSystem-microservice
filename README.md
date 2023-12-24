@@ -50,6 +50,9 @@
    npm start
   ```
 
+- I have used concurrently to run all three servers at the same time.
+- our main server will run on port 8001, the public API server will run on port 8002 and the gateway server will run on port 8000.  
+
 ### API Endpoints
 
 For using the API endpoints, you can use Postman or any other API testing tool of your choice. The base URL for the API is `http://localhost:8000`.
