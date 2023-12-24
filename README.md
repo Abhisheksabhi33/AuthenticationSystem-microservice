@@ -175,7 +175,7 @@ For using the API endpoints, you can use Postman or any other API testing tool o
 
 
 ## Public API Microservice
-   - `/api/public/profile/:apikey`
+   - `/api/public/profile`
      
   - **Method**: POST
   - **Description**: Get user profile details from the database for the current user using public api key.
@@ -192,8 +192,7 @@ For using the API endpoints, you can use Postman or any other API testing tool o
       }
     ```
 
-
-![Screenshot 2023-12-24 132719](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/e148c079-6005-4c64-bcc4-d929f782aecf)
+    ![Screenshot 2023-12-24 154801](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/7fafc4aa-914c-43be-a6f9-939fd3933e1b)
 
 
 - `/api/public/candidate/:apikey`
