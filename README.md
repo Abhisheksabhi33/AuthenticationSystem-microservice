@@ -81,7 +81,8 @@ For using the API endpoints, you can use Postman or any other API testing tool o
       "password": "$2b$10$.b2aiXM85v7rcLGXJjfqAej70DWT1CjfMa3yfdKjgtK55Kt1Qjvd."
       }
       ```
-     ![Screenshot 2023-12-24 132416](https://github.com/Abhisheksabhi33/authSystem-microservice/assets/87107030/4cc88f82-5e92-43c1-8ab9-71e428dccdad)
+      ![Screenshot 2023-12-24 132416](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/c4fb3c61-8082-44c4-9aaa-1534d1ed9f98)
+
 
 - `/api/user/login`
      - **Method**: POST
