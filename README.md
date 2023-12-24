@@ -102,11 +102,16 @@ For using the API endpoints, you can use Postman or any other API testing tool o
        }
    ```
 
-![Screenshot 2023-12-24 132436](https://github.com/Abhisheksabhi33/authSystem-microservice/assets/87107030/1a7488cc-3cb1-45f6-8b51-283344e85f42)
+
+
+![Screenshot 2023-12-24 132436](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/2a06afb7-6a3a-4f2d-8b59-841e7da80972)
 
 - Auth Token is saved in the cookie section
 
-![Screenshot 2023-12-24 132458](https://github.com/Abhisheksabhi33/authSystem-microservice/assets/87107030/c2846914-cd6b-454c-a0fd-f3c4ac3ffdb6)
+
+
+![Screenshot 2023-12-24 132458](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/495d8933-9bee-4e42-9dcd-9a7c3a0352fc)
+
 
  - `/api/user/add-candidate`
       - **Method**: POST
@@ -128,14 +133,16 @@ For using the API endpoints, you can use Postman or any other API testing tool o
         "email": "mohan@email.com"
         }
         ```
-  
-  ![Screenshot 2023-12-24 132540](https://github.com/Abhisheksabhi33/authSystem-microservice/assets/87107030/10eee861-f257-499f-a0d8-b9dc1882b9ed)
+
+
+  ![Screenshot 2023-12-24 132540](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/1f3da33a-5bea-488a-bf5c-a3d15e4c3d86)
+
 
   - If we remove the auth token from cookie the we log out and can not access protected routes
 
     
+![Screenshot 2023-12-24 132638](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/bbab8860-c858-44b7-a2e5-c4c3cda3f3eb)
 
-  ![Screenshot 2023-12-24 132638](https://github.com/Abhisheksabhi33/authSystem-microservice/assets/87107030/2444df79-0976-464d-81f7-3e9a7e554abe)
 
 
   - `/api/user/get-candidate`
@@ -161,7 +168,7 @@ For using the API endpoints, you can use Postman or any other API testing tool o
 
 
     
-![Screenshot 2023-12-24 132704](https://github.com/Abhisheksabhi33/authSystem-microservice/assets/87107030/0617dcaf-5815-43da-bb40-f40d2581e679)
+![Screenshot 2023-12-24 132704](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/9abc17ca-4f09-4dd2-a1cb-d3f168398c9f)
 
 
 ## Public API Microservice
@@ -183,7 +190,7 @@ For using the API endpoints, you can use Postman or any other API testing tool o
     ```
 
 
-    ![Screenshot 2023-12-24 132719](https://github.com/Abhisheksabhi33/authSystem-microservice/assets/87107030/f81e6ac3-fc36-4e5f-a800-93a6a11ebf2f)
+![Screenshot 2023-12-24 132719](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/e148c079-6005-4c64-bcc4-d929f782aecf)
 
 
 - `/api/public/candidate/:apikey`
@@ -206,7 +213,7 @@ For using the API endpoints, you can use Postman or any other API testing tool o
        ```
 
      
-![Screenshot 2023-12-24 132733](https://github.com/Abhisheksabhi33/authSystem-microservice/assets/87107030/eb9cfad4-8a11-43e7-a992-113a8129201e)
+![Screenshot 2023-12-24 132733](https://github.com/Abhisheksabhi33/AuthenticationSystem-microservice/assets/87107030/e2620b45-44e7-4605-a776-4e0e377f9a15)
 
 ### Main Service
 
